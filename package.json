@@ -1,0 +1,37 @@
+{
+  "name": "@signatorio/monorepo",
+  "version": "1.0.0",
+  "keywords": [
+    "ethereum",
+    "react",
+    "uniswap",
+    "workspaces",
+    "yarn"
+  ],
+  "private": true,
+  "scripts": {
+    "react-app:build": "yarn workspace @signatorio/react-app build --max-old-space-size=12288",
+    "react-app:eject": "yarn workspace @signatorio/react-app eject",
+    "react-app:start": "yarn workspace @signatorio/react-app start",
+    "react-app:test": "yarn workspace @signatorio/react-app test",
+    "build": "yarn workspace @signatorio/react-app build --max-old-space-size=12288",
+    "start": "yarn workspace @signatorio/react-app start",
+    "ipfs": "yarn workspace @signatorio/react-app ipfs",
+    "surge": "yarn workspace @signatorio/react-app surge",
+    "s3": "yarn workspace @signatorio/react-app s3",
+    "ship": "yarn workspace @signatorio/react-app ship",
+    "theme": "yarn workspace @signatorio/react-app theme",
+    "watch-theme": "yarn workspace @signatorio/react-app watch"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/@graphprotocol/graph-ts",
+      "**/@graphprotocol/graph-ts/**",
+      "**/hardhat",
+      "**/hardhat/**"
+    ]
+  }
+}
