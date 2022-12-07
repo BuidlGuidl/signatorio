@@ -182,9 +182,9 @@ function App() {
       </BrowserRouter>
 
       {/* <ThemeSwitch /> */}
-      <Footer style={{ textAlign: "center", fontSize: "16px" }}>
+      <div style={{ position:'absolute', bottom:0, width:"100%", backgroundColor:"#434343", padding:30, height:30, opacity: 0.7, textAlign: "center", fontSize: "16px" }}>
         <Space>
-          <a href="https://github.com/austintgriffith/scaffold-eth/tree/signatorio" target="_blank">
+          <a href="https://github.com/buidlguidl/signatorio" target="_blank">
             <GithubOutlined />
           </a>
           <span>Built with 💙</span>
@@ -192,7 +192,7 @@ function App() {
             🏰 BuidlGuidl{" "}
           </a>
         </Space>
-      </Footer>
+      </div>
     </div>
   );
 }
