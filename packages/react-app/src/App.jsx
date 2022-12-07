@@ -187,7 +187,7 @@ function App() {
           <a href="https://github.com/austintgriffith/scaffold-eth/tree/signatorio" target="_blank">
             <GithubOutlined />
           </a>
-          <span>Built with 💙</span>
+          <span>Built with 🖤</span>
           <a href="https://buidlguidl.com/" target="_blank">
             🏰 BuidlGuidl{" "}
           </a>
