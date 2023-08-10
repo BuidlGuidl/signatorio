@@ -3,6 +3,7 @@
   background: url(./images/sig-background.jpg) top center no-repeat;
   background-color: #121212;
   background-size: 1200px;
+  position: relative;
 }
 
 .container {
